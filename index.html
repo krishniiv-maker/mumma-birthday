@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Mumma — A Little World Made of Love</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="magic"></div>
+
+<div class="intro" id="intro">
+  <div class="intro-stars"></div>
+  <div class="intro-content">
+    <div class="tiny-heart">♡</div>
+    <p class="kicker">A little world made especially for you</p>
+    <h1>Dear <em>Mumma,</em></h1>
+    <p class="intro-line">I made something for you.<br>Not because I had to…<br>but because <em>you deserve a little magic too.</em></p>
+    <button class="begin" id="begin">Open your little surprise <span>♥</span></button>
+  </div>
+</div>
+
+<div class="app" id="app">
+  <div class="progress"><span id="progress"></span></div>
+  <div class="counter"><span id="current">01</span> / <span>06</span></div>
+
+  <section class="scene active" data-scene="1">
+    <div class="scene-bg bg-dark"></div>
+    <div class="scene-content center">
+      <p class="kicker">A story in photographs</p>
+      <h2>Before I could remember,<br><em>you were already there.</em></h2>
+      <p class="soft">Some photographs are more than photographs.<br>They are tiny windows into a life we came from.</p>
+      <button class="next">Enter the memory <span>→</span></button>
+    </div>
+  </section>
+
+  <section class="scene" data-scene="2">
+    <div class="memory-photo old"><img src="mumma_bachpan_family.jpg" alt="An old family photograph"></div>
+    <div class="memory-copy left">
+      <p class="kicker">MEMORY I</p>
+      <h2>A little piece<br>of <em>your story.</em></h2>
+      <p>Long before I knew how quickly photographs become precious, there were moments like this — quietly becoming part of our story.</p>
+      <p class="small-note">Some memories don't need a caption. They just need to be remembered. ♡</p>
+      <button class="next">Next memory <span>→</span></button>
+    </div>
+  </section>
+
+  <section class="scene" data-scene="3">
+    <div class="memory-photo old second"><img src="mumma_bachpan.jpg" alt="A treasured old photograph"></div>
+    <div class="memory-copy right">
+      <p class="kicker">MEMORY II</p>
+      <h2>Before “Mumma” became<br><em>my whole world.</em></h2>
+      <p>There was a whole life, a whole journey, and so many little moments before I could understand any of it.</p>
+      <p class="small-note">And somehow, I got lucky enough to become part of that story.</p>
+      <button class="next">Keep going <span>→</span></button>
+    </div>
+  </section>
+
+  <section class="scene" data-scene="4">
+    <div class="full-memory"><img src="mumma_with_krishni_birthday.jpg" alt="Mumma and Krishni together"></div>
+    <div class="cinematic-overlay"></div>
+    <div class="memory-copy cinematic-copy">
+      <p class="kicker">MEMORY III</p>
+      <h2>And then there was <em>us.</em></h2>
+      <p>The silly moments. The laughter. The photographs we took without knowing we'd one day look at them and miss that exact version of us.</p>
+      <button class="next light">One more memory <span>→</span></button>
+    </div>
+  </section>
+
+  <section class="scene" data-scene="5">
+    <div class="split-memory">
+      <div class="split-photo"><img src="mumma_saree.jpg" alt="Mumma in a beautiful saree"></div>
+      <div class="split-photo"><img src="mumma_and_me_old.jpg" alt="Mumma and Krishni together"></div>
+    </div>
+    <div class="scene-content center over-split">
+      <p class="kicker">MEMORY IV</p>
+      <h2>Years pass.<br><em>The feeling doesn't.</em></h2>
+      <p class="soft">You keep becoming more beautiful in ways photographs can never fully capture.</p>
+      <button class="next">Come to today <span>→</span></button>
+    </div>
+  </section>
+
+  <section class="scene" data-scene="6">
+    <div class="final-photo"><img src="mumma_and_me_now.jpg" alt="Mumma and Krishni today"></div>
+    <div class="final-shade"></div>
+    <div class="final-content">
+      <p class="kicker">TODAY & ALWAYS</p>
+      <h2>Still my favourite<br><em>person in the world.</em></h2>
+      <p>Mumma, you spent so much of your life giving me the best of yours.</p>
+      <p>So today, I just want to give a little of that love back.</p>
+      <button class="celebrate" id="celebrate">One last surprise ♥</button>
+    </div>
+  </section>
+</div>
+
+<div class="birthday" id="birthday">
+  <div class="bloom"></div>
+  <div class="birthday-content">
+    <div class="giant-heart">♥</div>
+    <p class="kicker">For my favourite woman</p>
+    <h2>HAPPY BIRTHDAY,<br><em>MUMMA.</em></h2>
+    <p class="birthday-text">My safest place.<br>My biggest blessing.<br>My forever home.</p>
+    <p class="signature">With all my love,<br><strong>Your Krishni ♡</strong></p>
+    <button class="replay" id="replay">Relive it again ↺</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
