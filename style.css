@@ -42,6 +42,20 @@ h1{font-size:clamp(65px,10vw,130px);margin-bottom:35px}h1 em,h2 em{font-style:it
 .birthday:before{content:"";position:absolute;inset:0;background:radial-gradient(circle,#fff2 1px,transparent 1px);background-size:55px 55px;opacity:.25}.bloom{position:absolute;width:500px;height:500px;border-radius:50%;background:#e7afb033;filter:blur(70px);animation:bloom 4s infinite alternate}@keyframes bloom{to{transform:scale(1.2);opacity:.6}}
 .birthday-content{position:relative;z-index:2}.giant-heart{font-size:55px;color:#efb8bb;animation:heartbeat 1.5s infinite}.birthday h2{font-size:clamp(65px,10vw,135px);margin:10px 0 30px}.birthday-text{font:26px/1.4 "Cormorant Garamond";color:#e5d6d4}.signature{font:18px/1.5 "Cormorant Garamond";margin-top:32px;color:#d5c2c0}.signature strong{font-size:24px;color:#e7b7b7}.replay{font-size:9px;padding:11px 18px}
 @media(max-width:800px){
-.memory-photo,.second{inset:5vh 5% 48vh}.memory-copy,.memory-copy.left,.memory-copy.right,.second+.memory-copy{left:7%;right:7%;top:auto;bottom:5%;transform:none;width:auto}.memory-copy h2{font-size:47px}.memory-copy p:not(.kicker):not(.small-note){font-size:13px;line-height:1.55}.small-note{display:none}.memory-copy .next{margin-top:15px}.cinematic-copy{left:7%;width:86%;top:auto;bottom:8%;transform:none}.cinematic-copy h2{font-size:58px}.cinematic-copy p:not(.kicker){font-size:20px}.final-content{left:7%;right:7%;top:auto;bottom:8%;transform:none}.final-content h2{font-size:60px}.final-content p:not(.kicker){font-size:19px}.split-photo img{object-fit:cover}.counter{right:15px;top:20px}
+.memory-photo,.second{inset:5vh 5% 48vh}.memory-copy,.memory-copy.left,.memory-copy.right,.second+.memory-copy{left:7%;right:7%;top:auto;bottom:5%;transform:none;width:auto}.memory-copy h2{font-size:47px}.memory-copy p:not(.kicker):not(.small-note){font-size:13px;line-height:1.55}.small-note{display:none}.memory-copy .next{margin-top:15px}.cinematic-copy{left:7%;width:86%;top:auto;bottom:8%;transform:none}.cinematic-copy h2{font-size:58px}.cinematic-copy p:not(.kicker){font-size:20px}.final-content{left:7%;right:7%;top:auto;bottom:8%;transform:none}.final-content h2{font-size:60px}.final-content p:not(.kicker){font-size:19px}..split-photo img{
+  object-fit:contain;
+  background:#0d090a;
+}.counter{right:15px;top:20px}
+.split-memory{
+  flex-direction:column;
+  gap:8px;
 }
+
+.split-photo{
+  min-height:0;
+}
+
+.split-photo img{
+  object-fit:contain;
+}}
 @media(max-height:650px){.memory-photo,.second{inset:3vh 5% 42vh}.memory-copy,.memory-copy.left,.memory-copy.right,.second+.memory-copy{bottom:3%}.memory-copy h2{font-size:38px}.memory-copy p:not(.kicker){display:none}}
